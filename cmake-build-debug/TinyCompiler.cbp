@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TinyCompiler"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TinyCompiler">
+				<Option output="/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/TinyCompiler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhaozeyuan/CLionProjects/TinyCompiler/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 TinyCompiler"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="TinyCompiler/fast">
+				<Option output="/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/TinyCompiler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhaozeyuan/CLionProjects/TinyCompiler/."/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 TinyCompiler/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zhaozeyuan/CLionProjects/TinyCompiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/ANALYZE.C">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/ANALYZE.H">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/ANALYZE.h">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/CGEN.C">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/CGEN.H">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/CGEN.h">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/CODE.C">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/CODE.H">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/CODE.h">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/GLOBALS.H">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/PARSE.C">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/PARSE.H">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/PARSE.h">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/SCAN.C">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/SCAN.H">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/SCAN.h">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/SYMTAB.C">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/SYMTAB.H">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/SYMTAB.h">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/UTIL.C">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/UTIL.H">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/UTIL.h">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/main.c">
+			<Option target="TinyCompiler"/>
+		</Unit>
+		<Unit filename="/Users/zhaozeyuan/CLionProjects/TinyCompiler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

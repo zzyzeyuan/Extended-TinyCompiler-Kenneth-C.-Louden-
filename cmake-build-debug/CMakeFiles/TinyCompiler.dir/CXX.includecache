@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zhaozeyuan/CLionProjects/TinyCompiler/SCAN.C
+globals.h
+/Users/zhaozeyuan/CLionProjects/TinyCompiler/globals.h
+util.h
+/Users/zhaozeyuan/CLionProjects/TinyCompiler/util.h
+scan.h
+/Users/zhaozeyuan/CLionProjects/TinyCompiler/scan.h
+
+/Users/zhaozeyuan/CLionProjects/TinyCompiler/globals.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+string.h
+-
+
+/Users/zhaozeyuan/CLionProjects/TinyCompiler/scan.h
+
+/Users/zhaozeyuan/CLionProjects/TinyCompiler/util.h
+

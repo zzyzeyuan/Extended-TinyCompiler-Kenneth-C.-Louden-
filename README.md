@@ -1,5 +1,5 @@
 # Extended-TinyCompiler-Kenneth-C.-Louden-
-A Extended Project in Tiny Compiler by Kenneth C. Louden 
+An Extended Project in Tiny Compiler by Kenneth C. Louden 
 
 
 1.增加浮点数类型(FLOAT)
@@ -15,4 +15,4 @@ A Extended Project in Tiny Compiler by Kenneth C. Louden
 
 
 
-###THANKS TO MY FRIEND LiLei!
+### THANKS TO MY FRIEND LiLei!
